@@ -19,15 +19,19 @@ wget \
   http://reformation.arizona.edu
 ```
 
-You can test locally by running `npm install` and `npm run serve`, which will fire off a development server at http://localhost:8888.
+You can test locally by running `./serve.sh`. The script uses PHP to start a webserver at localhost:8888.
+
+```sh
+php -S 127.0.0.1:8888 -t public/reformation.arizona.edu
+```
 
 The static website is located in `public/reformation.arizona.edu`.
 
 ## Deploying
 
-You can deploy the project by running `npm run deploy`. You might need to specify an AWS profile like this: `npm run deploy -- --profile=profilename`.
+You can deploy the project by running `./deploy.sh`. You might need to specify an AWS profile like this: `./deploy.sh --profile=<profile name>`.
 
-`npm run deploy` uses [AWS CLI](https://aws.amazon.com/cli/) to deploy to an AWS S3 bucket.
+`deploy.sh` uses [AWS CLI](https://aws.amazon.com/cli/) to deploy to an AWS S3 bucket.
 
 ```sh
 aws s3 sync public/reformation.arizona.edu s3://ualibr-reformation-arizona-edu --delete
