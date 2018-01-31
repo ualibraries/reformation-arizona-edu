@@ -6,10 +6,17 @@
 
 ## Building
 
-This static website was built by running this command:
+This static website was built by running `./build.sh`. The build script runs wget:
 
-```
-wget --mirror --page-requisites --continue --convert-links --adjust-extension --directory-prefix=public http://reformation.arizona.edu
+```sh
+wget \
+  --mirror \
+  --page-requisites \
+  --continue \
+  --convert-links \
+  --adjust-extension \
+  --directory-prefix=public \
+  http://reformation.arizona.edu
 ```
 
 You can test locally by running `npm install` and `npm run serve`, which will fire off a development server at http://localhost:8888.
