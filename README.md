@@ -27,6 +27,12 @@ The static website is located in `public/reformation.arizona.edu`.
 
 You can deploy the project by running `npm run deploy`. You might need to specify an AWS profile like this: `npm run deploy -- --profile=profilename`.
 
+`npm run deploy` uses [AWS CLI](https://aws.amazon.com/cli/) to deploy to an AWS S3 bucket.
+
+```sh
+aws s3 sync public/reformation.arizona.edu s3://ualibr-reformation-arizona-edu --delete
+```
+
 View at http://ualibr-reformation-arizona-edu.s3-website-us-west-2.amazonaws.com
 
 ## License
