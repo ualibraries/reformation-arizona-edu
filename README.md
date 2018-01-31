@@ -41,4 +41,6 @@ View at http://ualibr-reformation-arizona-edu.s3-website-us-west-2.amazonaws.com
 
 ## License
 
-See the `LICENSE` file.
+```
+Copyright (C) The Arizona Board of Regents on Behalf of the University of Arizona - All Rights Reserved
+```
