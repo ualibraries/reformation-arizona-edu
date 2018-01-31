@@ -19,6 +19,10 @@ wget \
   http://reformation.arizona.edu
 ```
 
+The static website is located in `public/reformation.arizona.edu`.
+
+## Testing
+
 You can test locally by running `./serve.sh`. The script uses PHP to start a webserver at http://localhost:8888.
 
 Verify that it isn't using any resources from reformation.arizona.edu by adding `127.0.0.1 reformation.arizona.edu` to your hosts file (`/etc/hosts`), and seeing if the site at http://localhost:8888 loads correctly.
@@ -26,8 +30,6 @@ Verify that it isn't using any resources from reformation.arizona.edu by adding 
 ```sh
 php -S 127.0.0.1:8888 -t public/reformation.arizona.edu
 ```
-
-The static website is located in `public/reformation.arizona.edu`.
 
 ## Deploying
 
