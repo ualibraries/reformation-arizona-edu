@@ -44,7 +44,7 @@ You can deploy the project by running `./deploy.sh`. You might need to specify a
 `deploy.sh` uses [AWS CLI](https://aws.amazon.com/cli/) to deploy to an AWS S3 bucket.
 
 ```sh
-aws s3 sync public/reformation.arizona.edu s3://ualibr-reformation-arizona-edu --delete
+aws s3 sync public s3://ualibr-reformation-arizona-edu --delete
 ```
 
 View at http://ualibr-reformation-arizona-edu.s3-website-us-west-2.amazonaws.com
