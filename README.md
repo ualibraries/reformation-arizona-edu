@@ -43,6 +43,13 @@ aws s3 sync public/reformation.arizona.edu s3://ualibr-reformation-arizona-edu -
 
 View at http://ualibr-reformation-arizona-edu.s3-website-us-west-2.amazonaws.com
 
+## Further reading
+
+* https://gist.github.com/dannguyen/03a10e850656577cfb57
+* https://unix.stackexchange.com/questions/94488/ignore-other-domains-when-downloading-with-wget
+* https://superuser.com/questions/129085/make-wget-download-page-resources-on-a-different-domain
+* https://www.gnu.org/software/wget/manual/html_node/index.html#SEC_Contents
+
 ## License
 
 ```

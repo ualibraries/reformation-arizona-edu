@@ -1,0 +1,315 @@
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+DW+Pica+SC|IM+Fell+Great+Primer);
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer);
+
+body {
+  font-size: 17.6px;
+  line-height: 27px;
+  background: #25130a url("../579.jpg") no-repeat fixed right top !important;
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+.h1, h1 {
+  font-family: 'IM Fell Great Primer', serif;
+  margin-bottom: 0.8em;
+  margin-top: 0.5em;
+  color: black;
+}
+
+.h3, h3{
+  font-family: 'IM Fell Great Primer', serif;
+  margin-bottom: 0.8em;
+  margin-top: 0.5em;
+  color: black;
+}
+
+.field-uaqs-text-heading h3 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.h2, h2 {
+  color: black;
+  font-family: 'IM Fell Great Primer', serif;
+  margin-bottom: 0.8em;
+  margin-top: 0.5em;
+}
+
+a {
+  font-family: 'IM Fell Great Primer', serif;
+  font-weight: 400;
+}
+
+p {
+  margin: 0 0 1em;
+  font-family: 'IM Fell DW Pica', serif;
+  line-height: 1.8em;
+}
+/* UA red banner*/
+#header_ua .col-xs-12 img{
+  margin-top: 0em;
+}
+
+/* Main nav */ 
+#main_nav {
+  z-index: 990;
+  background: url("../nav1.png") no-repeat right;
+  font-family: 'IM Fell Great Primer', serif;
+  border-width: 0px;
+}
+
+#main_nav a {
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 1.13rem 1rem;
+}
+
+#main_nav a:hover {
+  color: #851212;
+}
+
+#main_nav ul.sf-menu {
+  float:right;
+}
+
+#main_nav ul.sf-horizontal li a.active {
+  background-color: rgba(0,0,0,0.05);
+  color: #851212;
+}
+
+/* Main logo */
+.header__logo {
+  float: right;
+  margin: 5rem 0;
+}
+
+.header__logo-image {
+  max-width: 550px;
+}
+
+.header__logo-image {
+  transition-duration: 1s;
+}
+
+.header__logo-image:hover {
+  transform: scale(1.05) translateX(5px);
+  transition: 1s ease-out;
+}
+
+/* Luther's head shot */
+#block-block-3 {
+  width: 493px;
+  height: 609px;
+  background: url("../pt3.png") no-repeat left top;
+  background-size: 475px 587px;
+  position: absolute;
+}
+
+#block-block-3 h2 {
+  display: none;
+}
+
+/* Footer */
+.col-xs-12 img {
+  vertical-align: top;
+  max-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.col-xs-12 a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Content body */ 
+.col-sm-12 {
+  background: #f9f3ea url("../123.jpg") no-repeat left top;
+  padding: 3em 4em;
+}
+
+.img-responsive {
+  border: 8px white solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#txt {
+  display: block;
+  width: 228px;
+  height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../345.png") no-repeat left top;
+}
+
+figure.pull-right {
+  margin:1em 1.5em; 
+}
+
+.field-uaqs-image-credit {
+  padding-top: 12px;
+  font-size: 13px;
+  color: #666666;
+  line-height: 16px;
+  font-style: italic;
+}
+
+.field-uaqs-caption-text {
+  color: #851212;
+  padding-top: 12px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+/* Calendar page */
+.uaqs-event-calendar .uaqs-event-row .uaqs-event-right-group {
+  background: rgba(0,0,0,0.1);
+  padding: .5rem 0;
+}
+
+.uaqs-event-calendar .uaqs-event-row .uaqs-event-left-group {
+  background: rgba(0,0,0,0.1);
+}
+
+.uaqs-event-calendar .uaqs-event-row .uaqs-event-right-group h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.uaqs-event-calendar .uaqs-event-row .uaqs-event-right-group .field-uaqs-summary-short + h3 {
+  margin-top: 5px;
+}
+
+.uaqs-event-calendar .uaqs-event-row .uaqs-event-right-group h3 a,
+.uaqs-event-calendar .uaqs-event-row .uaqs-event-right-group h3 a:link,
+.uaqs-event-calendar .uaqs-event-row .uaqs-event-right-group h3 a:visited {
+  font-size: 1.2rem;
+  display: block;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #ab0520;
+}
+
+.date-location {
+  margin-top: 15px;
+}
+
+.date-location .date-display-single {
+  float: left;
+  margin-right: 5px;
+}
+
+.presented-by {
+  margin-top: 15px;
+}
+
+.page-node .field-uaqs-summary-short {
+  font-size: 28px;
+}
+
+.group-featured {
+  float: right;
+  margin-left: 1.8em;
+  margin-bottom: 1.5em;
+}
+
+.group-featured h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.group-featured .field-speaker {
+  margin-top: .5em;
+}
+
+/* Partner page*/
+.field-partner-logo img {
+  max-width: 250px;
+  max-height: 150px;
+  object-fit: scale-down;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  object-position: left;
+
+}
+
+
+article .contextual-links-region, .node-partner{
+  background: rgba(0,0,0,0.1);
+  padding: 1em 1em;
+  margin-bottom: 2em;
+}
+
+/* Contact page */
+.contact-form label{
+  display: block;
+}
+
+/* mobile */
+@media (max-width: 1050px) {
+  .header__logo {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    float:left;
+  }
+
+  #block-block-3 {
+    display: none;
+  }
+
+  #main_nav {
+    background-color: #B00426;
+    background-image: none;
+  }
+
+  #main_nav a {
+    color: white;
+    padding: 1rem 1rem;
+  }
+
+  #main_nav a:hover {
+    color: black;
+  }
+
+  #main_nav ul.sf-horizontal li a.active {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+  }
+
+  #main_nav ul.sf-menu {
+    float: left;
+  }
+}
+
+@media (max-width: 670px) {
+  .group-featured {
+    float: none;
+    margin-left: 0;
+  }
+}
+
+#main_nav .sf-accordion-toggle a {
+  background-color: #B00426;
+  font-family: 'IM Fell Great Primer', serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#main_nav .sf-accordion-toggle a:hover {
+  background-color: #B00426;
+  color: black;
+}
+
+#main_nav ul.menu.sf-accordion li a.active {
+  background-color: rgba(0,0,0,0.3);
+}
+
+#main_nav ul.menu.sf-accordion {
+  background-color: #B00426;
+}
+
+
