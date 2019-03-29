@@ -2,6 +2,9 @@
 
 > This website is a static version of http://reformation.arizona.edu, preserved for archival purposes.
 
+The domain `reformation.arizona.edu` has been retired. This content now lives
+at reformation.library.arizona.edu.
+
 ![screenshot](screenshot.jpg)
 
 ## Building
@@ -44,10 +47,10 @@ You can deploy the project by running `./deploy.sh`. You might need to specify a
 `deploy.sh` uses [AWS CLI](https://aws.amazon.com/cli/) to deploy to an AWS S3 bucket.
 
 ```sh
-aws s3 sync public s3://ualibr-reformation-arizona-edu --delete
+aws s3 sync public s3://reformation.library.arizona.edu --delete
 ```
 
-View at http://ualibr-reformation-arizona-edu.s3-website-us-west-2.amazonaws.com
+View at http://reformation.library.arizona.edu
 
 ## Further reading
 
